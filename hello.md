@@ -1,7 +1,3 @@
-你好
+pandoc md.md -o md.docx
 
-Lala
-
-书奥格
-
-我是帅哥
+pandoc -s file.docx -t markdown -o file.md
